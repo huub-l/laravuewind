@@ -1,0 +1,31 @@
+{
+    "name": "bradlockhart/laravuewind",
+    "description": "A clean Laravel preset for rapid Laravel, Vue, Tailwind CSS setup.",
+    "keywords": [
+        "laravel",
+        "vue",
+        "tailwind css",
+        "laravel preset",
+        "laravel vue tailwind css preset"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brad Lockhart",
+            "email": "lockhartbradley92@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "bradlockhart\\laravuewind\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "bradlockhart\\laravuewind\\LaravuewindServiceProvider"
+            ]
+        }
+    }
+}
