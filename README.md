@@ -5,7 +5,7 @@ A clean Laravel preset for rapid Laravel, Vue, Tailwind CSS setup.
 Stubs - 
 
 ```
-app.css - Tailwind injections
+app.css - Tailwind injections.
 bootstrap.js - Laravel default lodash, axios, and csrf setup.
 app.js - Laravel default Vue setup.
 ExampleComponent.vue - Simple Vue example component.
