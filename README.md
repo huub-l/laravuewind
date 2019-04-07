@@ -12,7 +12,7 @@ ExampleComponent.vue - Simple Vue example component.
 tailwind.js - Tailwind initialisation.
 welcome.blade.php - Stubbed to render ExampleComponent.vue.
 webpack.mix.js - Stubbed to mix JavaScript, CSS, Tailwind, and Purgecss.
-AppServiveProvider - Stubbed to fix the Schema string length migration error.
+AppServiveProvider.php - Stubbed to fix the Schema string length migration error.
 (Note: Default sass folder is deleted).
 ```
 
