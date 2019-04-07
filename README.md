@@ -50,10 +50,10 @@ This package assumes a fresh Laravel installation - with the default preset.
 Change Directory into your fresh Laravel installation:
 
 
-Composer require the Laravuewind package:
+Composer require the laravuewind package:
 
 ```
-composer require bradlockhart/laravuewind-preset
+composer require bradlockhart/laravuewind
 ```
 
 
