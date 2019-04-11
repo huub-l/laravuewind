@@ -21,19 +21,19 @@ class LaravuewindPreset extends Preset
         static::updateWelcomeBlade();
     }
 
-    public static function updatePackageArray($packages)
+    public static function updatePackageArray()
     {
-        return array_merge([
-            "tailwindcss" => "^0.7.4",
-            "vue-template-compiler" => "^2.6.9",
+        return [
+            "axios" => "^0.18",
+            "cross-env" => "^5.2",
+            "laravel-mix" => "^4.0.15",
             "laravel-mix-purgecss" => "^4.1.0",
-        ], Arr::except($packages, [
-            'bootstrap',
-            'jquery',
-            'popper.js',
-            'sass',
-            'sass-loader',
-        ]));
+            "lodash" => "^4.17.11",
+            "resolve-url-loader" => "^3.1.0",
+            "tailwindcss" => "^0.7.4",
+            "vue" => "^2.6.10",
+            "vue-template-compiler" => "^2.6.10",
+        ];
     }
 
     public static function increaseSchemaStrLength()
