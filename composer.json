@@ -15,7 +15,6 @@
             "email": "lockhartbradley92@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "bradlockhart\\laravuewind\\": "src/"
