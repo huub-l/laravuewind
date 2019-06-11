@@ -24,13 +24,13 @@ class LaravuewindPreset extends Preset
     public static function updatePackageArray()
     {
         return [
-            "axios" => "^0.18",
-            "cross-env" => "^5.2",
-            "laravel-mix" => "^4.0.15",
+            "axios" => "^0.19.0",
+            "cross-env" => "^5.2.0",
+            "laravel-mix" => "^4.0.16",
             "laravel-mix-purgecss" => "^4.1.0",
             "lodash" => "^4.17.11",
             "resolve-url-loader" => "^3.1.0",
-            "tailwindcss" => "^0.7.4",
+            "tailwindcss" => "^1.0.3",
             "vue" => "^2.6.10",
             "vue-template-compiler" => "^2.6.10",
         ];
