@@ -43,7 +43,7 @@ class LaravuewindPreset extends Preset
 
     public static function twInit()
     {
-        File::copy(__DIR__ . '/stubs/tailwind.js', base_path('tailwind.js'));
+        File::copy(__DIR__ . '/stubs/tailwind.config.js', base_path('tailwind.config.js'));
     }
 
     public static function updateCss()
