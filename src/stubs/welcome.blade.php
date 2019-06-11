@@ -12,17 +12,11 @@
         <!-- Fonts -->
 
         <!-- Styles -->
-        <style>
-            html, body {
-                height: 100vh;
-                margin: 0;
-            }
-        </style>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
     <body>
         <div id="app">
-            {{-- @if (Route::has('login'))
+            <!-- @if (Route::has('login'))
                 <div>
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
@@ -34,7 +28,7 @@
                         @endif
                     @endauth
                 </div>
-            @endif --}}
+            @endif -->
             <example-component></example-component>
         </div>
     </body>
