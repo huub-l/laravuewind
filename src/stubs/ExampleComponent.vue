@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center text-grey-dark mt-32">{{welcome}}</h1>
+    <h1 class="text-center text-red-800 mt-32">{{welcome}}</h1>
   </div>
 </template>
 
