@@ -26,11 +26,11 @@ class LaravuewindPreset extends Preset
         return [
             "axios" => "^0.19.0",
             "cross-env" => "^5.2.0",
-            "laravel-mix" => "^4.0.16",
+            "laravel-mix" => "^4.1.2",
             "laravel-mix-purgecss" => "^4.1.0",
-            "lodash" => "^4.17.11",
+            "lodash" => "^4.17.15",
             "resolve-url-loader" => "^3.1.0",
-            "tailwindcss" => "^1.0.3",
+            "tailwindcss" => "^1.1.1",
             "vue" => "^2.6.10",
             "vue-template-compiler" => "^2.6.10",
         ];
